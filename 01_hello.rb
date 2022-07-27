@@ -110,10 +110,10 @@ print "How much do you weigh ?"
 
 
 print "\nGive me a number: "
-number = gets.chomp.to_i
+number = gets.chomp.to_i # chomp read string!!!!
 
 bigger = number * 100
-puts "A bigger number is #{bigger}"
+puts "A bigger number is #{bigger}" # puts mean put String
 
 print "\nGive me another number: "
 another = gets.chomp
