@@ -29,11 +29,14 @@ num_1 = gets.chomp
 puts "Enter the second number: "
 num_2 = gets.chomp
 
-puts "the first number multiplied by the second number is #{num_1.to_i * num_2.to_i}"
+def multiply(num1, num2)
+  num1.to_f * num2.to_f # return last expression
+end 
+
+puts "the first number multiplied by the second number is #{multiply(num_1, num_2)}"
 puts "division: #{num_1.to_f / num_2.to_f}"
 puts "subtracion: #{num_1.to_f - num_2.to_f}"
 puts "mod: #{num_1.to_f % num_2.to_f}"
 
 puts "-" * 50
-
 
