@@ -14,4 +14,3 @@ txt_again = open(file_again)
 print txt_again.read
 
 # ruby will not restrict you from opening a file more than once and sometimes this is necessary
-#
