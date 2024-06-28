@@ -1,10 +1,10 @@
-# Functions and Files 
+# Functions and Files
 
-input_file = ARGV.first 
+input_file = ARGV.first
 
 def print_all(f)
   puts f.read
-end 
+end
 
 def rewind(f)
   f.seek(0)
@@ -29,12 +29,10 @@ current_line = 1
 
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 
 print_a_line(current_line, current_file)
 
 current_line += 1
 
 print_a_line(current_line, current_file)
-
-
